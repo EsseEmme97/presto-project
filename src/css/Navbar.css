@@ -1,0 +1,25 @@
+.navbar-container {
+    position: fixed;
+    transform: translateX(-50%);
+	top:0;
+    left: 50%;
+    width: 70%;
+    transition: 300ms;
+    z-index: 1000; 
+}
+
+.scrolled {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    padding-top: 56px; /* Altezza della navbar */
+}
+
+.scrolled body {
+    padding-top: 0;
+}

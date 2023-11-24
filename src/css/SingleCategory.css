@@ -1,0 +1,15 @@
+.category-card{
+	border: 1px dashed var(--primary-green);
+	padding: 1rem;
+	text-align: center;
+}
+
+.category-icon{
+	height: 50px;
+	width: 50px;
+	padding: 1rem;
+	border-radius: 50%;
+	border: 1px dashed var(--primary-green);
+	color: var(--primary-green);
+}
+

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+:root{
+	font-family: 'Heebo', sans-serif!important;
+	--primary-green:  #008c76;
+}
+
+
+.primary-bg{
+	background-color: var(--primary-green);
+}
+
+.primary-color{
+	color: var(--primary-green);
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.active{
+	text-decoration: underline;
+}
+
+.heebo{
+	font-family: 'Heebo', sans-serif!important;
+}
