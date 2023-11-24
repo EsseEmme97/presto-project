@@ -21,6 +21,8 @@ contiene tutti i file css del progetto.
 5. Cartella mockoup:
 contiene i dati "dummy" che vengono utilizzati nel progetto.
 
+6. Il file routes.jsx contiene la gestione delle rotte del progetto.
+
 # Problemi principali del codice
 
 1. Il progetto attualmente non permette di creare rotte annidate (es "/ads/prova") crea un errore di sintassi. 
