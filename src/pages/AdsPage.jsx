@@ -3,7 +3,6 @@ import { useRouteLoaderData } from "react-router-dom";
 import SingleAd from "../components/SingleAd";
 import FilterForm from "../components/FilterForm";
 import { useState } from "react";
-import { Outlet } from "react-router-dom";
 
 export default function AdsPage() {
   const defaultData = useRouteLoaderData("main");
@@ -27,7 +26,6 @@ export default function AdsPage() {
             />
           ))}
         </Row>
-        <Outlet/>
       </Container>
   );
 }

@@ -4,21 +4,24 @@ import HomePage from "./pages/HomePage";
 import { HomePageLoader } from "./pages/HomePage";
 import AdsPage from "./pages/AdsPage";
 import AnnouncementPage from "./pages/AnnouncementPage";
+import { Outlet } from "react-router-dom";
 
 export const routes = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
     id: "main",
-    loader:HomePageLoader,
+    loader: HomePageLoader,
     children: [
       { path: "/", element: <HomePage /> },
       {
         path: "/ads",
-        element: <AdsPage />,
+        element: <Outlet />,
+        children: [
+          { index:true, element: <AdsPage /> },
+          { path: "/ads/:id", element: <AnnouncementPage /> },
+        ],
       },
-      {path:"example/example1", element:<h2>prova</h2>}, // riga di errore
-      { path: ":id", element: <AnnouncementPage/> },
     ],
   },
 ]);

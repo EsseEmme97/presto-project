@@ -26,7 +26,7 @@ export default function SingleAd(props) {
       <div className="p-2 my-2">
         <p className="primary-color fs-4 fw-bolder mb-0">{`${props.price} €`}</p>
         <h3 className="fs-4 mb-0">{props.name}</h3>
-        <Link to={`/${props.id}`}>
+        <Link to={`/ads/${props.id}`}>
           <p className="text-muted">Lorem ipsum</p>
         </Link>
       </div>

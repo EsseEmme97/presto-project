@@ -23,7 +23,8 @@ contiene i dati "dummy" che vengono utilizzati nel progetto.
 
 # Problemi principali del codice
 
-1. Il progetto attualmente non permette di creare rotte annidate (es "/ads/prova") crea un errore di sintassi. 
+1. Il progetto attualmente non permette di creare rotte annidate (es "/ads/prova") crea un errore di sintassi.  **fixato: aggiunto tag <base href="/" /> nell'head html**
+
 
 # Problemi secondari
 
